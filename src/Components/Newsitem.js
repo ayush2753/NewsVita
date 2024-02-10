@@ -2,10 +2,9 @@ import React from "react";
 
 const Newsitem = (props)=> {
   
-    let { title, description, imageurl, newsurl, author, date, source } =
-      props;
+    let { title, description, imageurl, newsurl, author, date, source } =props;
     return (
-      <div className="my-3">
+      <div className="my-3" style={{height: 'auto', width:'auto'}}>
         <div className="card">
           <div
             style={{
